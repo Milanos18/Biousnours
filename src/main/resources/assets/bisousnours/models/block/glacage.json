@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "bisousnours:blocks/basdublockdeglacage",
+    "down": "bisousnours:blocks/basdublockdeglacage1",
     "up": "bisousnours:blocks/hautdublockdeglacage",
-    "north": "bisousnours:blocks/cotedublockdeglacage",
-    "east": "bisousnours:blocks/cotedublockdeglacage",
-    "south": "bisousnours:blocks/cotedublockdeglacage",
-    "west": "bisousnours:blocks/cotedublockdeglacage",
-    "particle": "bisousnours:blocks/basdublockdeglacage"
+    "north": "bisousnours:blocks/cotedublockdeglacage1",
+    "east": "bisousnours:blocks/cotedublockdeglacage1",
+    "south": "bisousnours:blocks/cotedublockdeglacage1",
+    "west": "bisousnours:blocks/cotedublockdeglacage1",
+    "particle": "bisousnours:blocks/basdublockdeglacage1"
   }
 }
