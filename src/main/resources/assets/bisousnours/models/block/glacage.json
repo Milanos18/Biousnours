@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "bisousnours:blocks/glacage",
-    "up": "bisousnours:blocks/glacage",
-    "north": "bisousnours:blocks/glacage",
-    "east": "bisousnours:blocks/glacage",
-    "south": "bisousnours:blocks/glacage",
-    "west": "bisousnours:blocks/glacage",
-    "particle": "bisousnours:blocks/glacage"
+    "down": "bisousnours:blocks/basdublockdeglacage",
+    "up": "bisousnours:blocks/hautdublockdeglacage",
+    "north": "bisousnours:blocks/cotedublockdeglacage",
+    "east": "bisousnours:blocks/cotedublockdeglacage",
+    "south": "bisousnours:blocks/cotedublockdeglacage",
+    "west": "bisousnours:blocks/cotedublockdeglacage",
+    "particle": "bisousnours:blocks/basdublockdeglacage"
   }
 }
