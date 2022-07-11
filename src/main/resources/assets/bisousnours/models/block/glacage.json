@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bisousnours:blocks/glacage",
+    "up": "bisousnours:blocks/glacage",
+    "north": "bisousnours:blocks/glacage",
+    "east": "bisousnours:blocks/glacage",
+    "south": "bisousnours:blocks/glacage",
+    "west": "bisousnours:blocks/glacage",
+    "particle": "bisousnours:blocks/glacage"
+  }
+}

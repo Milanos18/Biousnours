@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.bisousnours.init.BisousnoursModItems;
+import net.mcreator.bisousnours.init.BisousnoursModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -42,6 +45,8 @@ public class BisousnoursMod {
 	public BisousnoursMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		BisousnoursModBlocks.REGISTRY.register(bus);
+		BisousnoursModItems.REGISTRY.register(bus);
 
 	}
 
