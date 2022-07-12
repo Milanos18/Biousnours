@@ -15,7 +15,7 @@ public class SucetteItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 20f;
 			}
 
 			public float getAttackDamageBonus() {
