@@ -55,6 +55,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sucette"
+    },
+    {
+      "name": "Chocolaterie",
+      "type": "fuel",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolaterie"
     }
   ],
   "variable_elements": [],

@@ -8,9 +8,9 @@
     "name": "Sucette",
     "specialInfo": [],
     "creativeTab": {
-      "value": "FOOD"
+      "value": "TOOLS"
     },
-    "toolType": "Axe",
+    "toolType": "Pickaxe",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,

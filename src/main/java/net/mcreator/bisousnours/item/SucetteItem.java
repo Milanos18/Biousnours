@@ -3,11 +3,11 @@ package net.mcreator.bisousnours.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.AxeItem;
 
-public class SucetteItem extends AxeItem {
+public class SucetteItem extends PickaxeItem {
 	public SucetteItem() {
 		super(new Tier() {
 			public int getUses() {
@@ -33,6 +33,6 @@ public class SucetteItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_FOOD));
+		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
