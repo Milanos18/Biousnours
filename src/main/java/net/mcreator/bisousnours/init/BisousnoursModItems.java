@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.bisousnours.item.SucetteItem;
 import net.mcreator.bisousnours.BisousnoursMod;
 
 public class BisousnoursModItems {
@@ -24,6 +25,8 @@ public class BisousnoursModItems {
 	public static final RegistryObject<Item> FEUILLEDEBARBAPAPA = block(BisousnoursModBlocks.FEUILLEDEBARBAPAPA, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> FEUILLEDEBARBAPAPA_2 = block(BisousnoursModBlocks.FEUILLEDEBARBAPAPA_2,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> MINERAIDEMAOAM = block(BisousnoursModBlocks.MINERAIDEMAOAM, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SUCETTE = REGISTRY.register("sucette", () -> new SucetteItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

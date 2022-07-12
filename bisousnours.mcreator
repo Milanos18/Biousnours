@@ -47,6 +47,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "feuilledebarbapapa_2"
+    },
+    {
+      "name": "Chocolaterie",
+      "type": "fuel",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolaterie"
+    },
+    {
+      "name": "Mineraidemaoam",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineraidemaoam"
+    },
+    {
+      "name": "Sucette",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sucette"
     }
   ],
   "variable_elements": [],
@@ -54,7 +78,6 @@
   "language_map": {
     "en_us": {
       "block.bisousnours.feuilledebarbapapa": "Feuilledebarbapapa",
-      "block.bisousnours.feuilledebarbapapa_2": "Feuilledebarbapapa 2",
       "block.bisousnours.glacage": "Glacage",
       "block.bisousnours.boisdebarbapapa": "Boisdebarbapapa",
       "block.bisousnours.gateau": "Gateau",

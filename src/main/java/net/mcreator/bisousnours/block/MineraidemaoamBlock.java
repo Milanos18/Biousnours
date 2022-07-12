@@ -5,9 +5,9 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class Feuilledebarbapapa2Block extends Block {
+public class MineraidemaoamBlock extends Block {
 
-	public Feuilledebarbapapa2Block() {
+	public MineraidemaoamBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
 
 	}
