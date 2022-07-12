@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bisousnours:blocks/odumineraideharibo",
+    "up": "bisousnours:blocks/bdumineraideharibo",
+    "north": "bisousnours:blocks/mineraideharibo",
+    "east": "bisousnours:blocks/idumineraideharibo",
+    "south": "bisousnours:blocks/rdumineraideharibo",
+    "west": "bisousnours:blocks/ademineraideharibo",
+    "particle": "bisousnours:blocks/odumineraideharibo"
+  }
+}
