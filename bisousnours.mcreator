@@ -71,6 +71,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sucette"
+    },
+    {
+      "name": "Boisdeviolet",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boisdeviolet"
     }
   ],
   "variable_elements": [],
@@ -79,6 +87,7 @@
     "en_us": {
       "block.bisousnours.mineraidemaoam": "Mineraidemaoam",
       "block.bisousnours.feuilledebarbapapa": "Feuilledebarbapapa",
+      "block.bisousnours.boisdeviolet": "Boisdeviolet",
       "block.bisousnours.feuilledebarbapapa_2": "Feuilledebarbapapa 2",
       "block.bisousnours.glacage": "Glacage",
       "block.bisousnours.boisdebarbapapa": "Boisdebarbapapa",

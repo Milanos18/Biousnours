@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bisousnours:blocks/boisdebarba",
+    "up": "bisousnours:blocks/boisdebarba",
+    "north": "bisousnours:blocks/boisdebarbapapa",
+    "east": "bisousnours:blocks/boisdebarbapapa",
+    "south": "bisousnours:blocks/boisdebarbapapa",
+    "west": "bisousnours:blocks/boisdebarbapapa",
+    "particle": "bisousnours:blocks/boisdebarba"
+  }
+}
