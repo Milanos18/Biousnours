@@ -39,12 +39,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "feuilledebarbapapa"
+    },
+    {
+      "name": "Mineraidemaoam",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineraidemaoam"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.bisousnours.mineraidemaoam": "Mineraidemaoam",
       "block.bisousnours.feuilledebarbapapa": "Feuilledebarbapapa",
       "block.bisousnours.glacage": "Glacage",
       "block.bisousnours.boisdebarbapapa": "Boisdebarbapapa",

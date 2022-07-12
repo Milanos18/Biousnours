@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.bisousnours.block.MineraidemaoamBlock;
 import net.mcreator.bisousnours.block.MineraideLUBlock;
 import net.mcreator.bisousnours.block.GlacageBlock;
 import net.mcreator.bisousnours.block.GateauBlock;
@@ -29,6 +30,7 @@ public class BisousnoursModBlocks {
 	public static final RegistryObject<Block> MINERAIDE_LU = REGISTRY.register("mineraide_lu", () -> new MineraideLUBlock());
 	public static final RegistryObject<Block> BOISDEBARBAPAPA = REGISTRY.register("boisdebarbapapa", () -> new BoisdebarbapapaBlock());
 	public static final RegistryObject<Block> FEUILLEDEBARBAPAPA = REGISTRY.register("feuilledebarbapapa", () -> new FeuilledebarbapapaBlock());
+	public static final RegistryObject<Block> MINERAIDEMAOAM = REGISTRY.register("mineraidemaoam", () -> new MineraidemaoamBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
