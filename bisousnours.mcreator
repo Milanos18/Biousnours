@@ -47,6 +47,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mineraidemaoam"
+    },
+    {
+      "name": "Sucette",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sucette"
     }
   ],
   "variable_elements": [],
@@ -58,7 +66,8 @@
       "block.bisousnours.glacage": "Glacage",
       "block.bisousnours.boisdebarbapapa": "Boisdebarbapapa",
       "block.bisousnours.gateau": "Gateau",
-      "block.bisousnours.mineraide_lu": "Mineraide LU"
+      "block.bisousnours.mineraide_lu": "Mineraide LU",
+      "item.bisousnours.sucette": "Sucette"
     }
   },
   "foldersRoot": {
