@@ -19,6 +19,7 @@ import net.mcreator.bisousnours.block.MineraideLUBlock;
 import net.mcreator.bisousnours.block.GlacageBlock;
 import net.mcreator.bisousnours.block.GateauBlock;
 import net.mcreator.bisousnours.block.FeuilledebarbapapaBlock;
+import net.mcreator.bisousnours.block.Feuilledebarbapapa2Block;
 import net.mcreator.bisousnours.block.BoisdebarbapapaBlock;
 import net.mcreator.bisousnours.BisousnoursMod;
 
@@ -29,6 +30,7 @@ public class BisousnoursModBlocks {
 	public static final RegistryObject<Block> MINERAIDE_LU = REGISTRY.register("mineraide_lu", () -> new MineraideLUBlock());
 	public static final RegistryObject<Block> BOISDEBARBAPAPA = REGISTRY.register("boisdebarbapapa", () -> new BoisdebarbapapaBlock());
 	public static final RegistryObject<Block> FEUILLEDEBARBAPAPA = REGISTRY.register("feuilledebarbapapa", () -> new FeuilledebarbapapaBlock());
+	public static final RegistryObject<Block> FEUILLEDEBARBAPAPA_2 = REGISTRY.register("feuilledebarbapapa_2", () -> new Feuilledebarbapapa2Block());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bisousnours:blocks/feuilledebarbapapa2",
+    "up": "bisousnours:blocks/feuilledebarbapapa2",
+    "north": "bisousnours:blocks/feuilledebarbapapa2",
+    "east": "bisousnours:blocks/feuilledebarbapapa2",
+    "south": "bisousnours:blocks/feuilledebarbapapa2",
+    "west": "bisousnours:blocks/feuilledebarbapapa2",
+    "particle": "bisousnours:blocks/feuilledebarbapapa2"
+  }
+}
