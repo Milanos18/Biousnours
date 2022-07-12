@@ -21,6 +21,7 @@ import net.mcreator.bisousnours.block.GlacageBlock;
 import net.mcreator.bisousnours.block.GateauBlock;
 import net.mcreator.bisousnours.block.FeuilledebarbapapaBlock;
 import net.mcreator.bisousnours.block.Feuilledebarbapapa2Block;
+import net.mcreator.bisousnours.block.BoisdevioletBlock;
 import net.mcreator.bisousnours.block.BoisdebarbapapaBlock;
 import net.mcreator.bisousnours.BisousnoursMod;
 
@@ -33,6 +34,7 @@ public class BisousnoursModBlocks {
 	public static final RegistryObject<Block> FEUILLEDEBARBAPAPA = REGISTRY.register("feuilledebarbapapa", () -> new FeuilledebarbapapaBlock());
 	public static final RegistryObject<Block> FEUILLEDEBARBAPAPA_2 = REGISTRY.register("feuilledebarbapapa_2", () -> new Feuilledebarbapapa2Block());
 	public static final RegistryObject<Block> MINERAIDEMAOAM = REGISTRY.register("mineraidemaoam", () -> new MineraidemaoamBlock());
+	public static final RegistryObject<Block> BOISDEVIOLET = REGISTRY.register("boisdeviolet", () -> new BoisdevioletBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

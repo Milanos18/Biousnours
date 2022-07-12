@@ -3,14 +3,14 @@ package net.mcreator.bisousnours.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.bisousnours.init.BisousnoursModItems;
 
-public class SucetteItem extends SwordItem {
+public class SucetteItem extends PickaxeItem {
 	public SucetteItem() {
 		super(new Tier() {
 			public int getUses() {
@@ -36,6 +36,6 @@ public class SucetteItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BisousnoursModItems.SUCETTE.get()));
 			}
-		}, 3, 96f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, 96f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
