@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class Feuilledebarbapapa2Block extends Block {
-	public Feuilledebarbapapa2Block() {
+public class BoisdevioletBlock extends Block {
+	public BoisdevioletBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
