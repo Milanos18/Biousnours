@@ -1,7 +1,11 @@
 
 package net.mcreator.bisousnours.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 
 public class SucetteItem extends PickaxeItem {
 	public SucetteItem() {
@@ -11,7 +15,7 @@ public class SucetteItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 20f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -29,11 +33,6 @@ public class SucetteItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
-
 }
