@@ -31,12 +31,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "boisdebarbapapa"
+    },
+    {
+      "name": "Feuilledebarbapapa",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuilledebarbapapa"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.bisousnours.feuilledebarbapapa": "Feuilledebarbapapa",
       "block.bisousnours.glacage": "Glacage",
       "block.bisousnours.boisdebarbapapa": "Boisdebarbapapa",
       "block.bisousnours.gateau": "Gateau",
