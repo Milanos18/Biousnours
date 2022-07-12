@@ -10,16 +10,20 @@
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
+    "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 20.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 100.0,
     "enchantability": 50000,
     "damageVsEntity": 22223.9,
-    "usageCount": 100,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sucette"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

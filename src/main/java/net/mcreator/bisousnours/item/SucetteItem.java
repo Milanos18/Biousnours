@@ -3,15 +3,18 @@ package net.mcreator.bisousnours.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-public class SucetteItem extends PickaxeItem {
+import net.mcreator.bisousnours.init.BisousnoursModItems;
+
+public class SucetteItem extends SwordItem {
 	public SucetteItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 1000;
 			}
 
 			public float getSpeed() {
@@ -31,8 +34,8 @@ public class SucetteItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of(new ItemStack(BisousnoursModItems.SUCETTE.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 3, 96f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
