@@ -27,7 +27,6 @@ public class BisousnoursModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> MINERAIDEMAOAM = block(BisousnoursModBlocks.MINERAIDEMAOAM, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> SUCETTE = REGISTRY.register("sucette", () -> new SucetteItem());
-	public static final RegistryObject<Item> BOISDEVIOLET = block(BisousnoursModBlocks.BOISDEVIOLET, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
